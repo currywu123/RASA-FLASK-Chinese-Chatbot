@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<title> 笨笨机器人</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+</head>
+<body background="{{ url_for('static', filename='images/1111.jpg') }}" style="background-repeat: no-repeat;
+background-size: 100% 100%; background-attachment: fixed";text='#68228B' onload="setInterval('clock()',1000)">
+	<h2>
+	我是你的笨笨机器人
+	<img alt="笨笨" class="benben" src="{{ url_for('static', filename='images/懂你.gif') }}">
+	</h2>
+	
+	<h3>对话</h3>
+	<div font style="line-height: 1.5" font-weight:bold>
+		{% for str in contents %}
+		<li>{{ loop.cycle('我: ', 'Bot: ') }} {{ str }}</li>
+		{% endfor %}
+	</div>
+
+	<hr />
+	<div font-weight:bold>
+		<form action="/request/" method="post">
+			<div>
+				{{ form.saying.label }}:{{ form.saying() }} {{ saying }}
+			</div>
+			<div>
+				<button type="submit">发送</button>
+			</div>
+		</form>
+	</div>
+	<hr />
+
+</body>
+</html>

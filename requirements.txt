@@ -1,0 +1,7 @@
+## Setup by requirements 
+rasa==1.0.3
+jieba
+git+https://github.com/mit-nlp/MITIE.git#egg=mitie
+flask
+flask_wtf
+

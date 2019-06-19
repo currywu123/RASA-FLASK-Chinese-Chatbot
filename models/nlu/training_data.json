@@ -1,0 +1,1414 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "chat",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "徐曳恺",
+            "entity": "name"
+          }
+        ],
+        "text": "你认识徐曳恺么？"
+      },
+      {
+        "intent": "chat",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "孙王斌",
+            "entity": "name"
+          }
+        ],
+        "text": "你知道孙王斌么？"
+      },
+      {
+        "intent": "chat",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "徐曳恺",
+            "entity": "name"
+          }
+        ],
+        "text": "那你认识徐曳恺么"
+      },
+      {
+        "intent": "chat",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "孙王斌",
+            "entity": "name"
+          }
+        ],
+        "text": "那你认识孙王斌么"
+      },
+      {
+        "intent": "chat",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "徐曳恺",
+            "entity": "name"
+          }
+        ],
+        "text": "你认识徐曳恺么"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "回头见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "有时间再聊"
+      },
+      {
+        "intent": "goodbye",
+        "text": "下回再聊"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见么么哒"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "白白"
+      },
+      {
+        "intent": "goodbye",
+        "text": "回见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "我走了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "不想聊了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "不理你了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "有事先走了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "有空再找你"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "我要去忙了，下回聊"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "greet",
+        "text": "嗨"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "早上好"
+      },
+      {
+        "intent": "greet",
+        "text": "下午好"
+      },
+      {
+        "intent": "greet",
+        "text": "晚上好"
+      },
+      {
+        "intent": "greet",
+        "text": "在么"
+      },
+      {
+        "intent": "greet",
+        "text": "你在么"
+      },
+      {
+        "intent": "greet",
+        "text": "快出现"
+      },
+      {
+        "intent": "greet",
+        "text": "现身"
+      },
+      {
+        "intent": "greet",
+        "text": "快现身"
+      },
+      {
+        "intent": "greet",
+        "text": "你的小主已上线"
+      },
+      {
+        "intent": "greet",
+        "text": "人呢"
+      },
+      {
+        "intent": "greet",
+        "text": "快来陪我聊天"
+      },
+      {
+        "intent": "greet",
+        "text": "需要你"
+      },
+      {
+        "intent": "greet",
+        "text": "求助"
+      },
+      {
+        "intent": "greet",
+        "text": "在不在"
+      },
+      {
+        "intent": "greet",
+        "text": "笨笨在么"
+      },
+      {
+        "intent": "greet",
+        "text": "笨笨"
+      },
+      {
+        "intent": "greet",
+        "text": "笨笨快出现"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "我想去北京"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "上海",
+            "entity": "province"
+          }
+        ],
+        "text": "上海"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "天津",
+            "entity": "province"
+          }
+        ],
+        "text": "想去天津"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "云南",
+            "entity": "province"
+          }
+        ],
+        "text": "去云南"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "内蒙古",
+            "entity": "province"
+          }
+        ],
+        "text": "去内蒙古玩"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "吉林",
+            "entity": "province"
+          }
+        ],
+        "text": "去吉林旅游"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "四川",
+            "entity": "province"
+          }
+        ],
+        "text": "想去四川旅游"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "宁夏",
+            "entity": "province"
+          }
+        ],
+        "text": "打算去宁夏"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "安徽",
+            "entity": "province"
+          }
+        ],
+        "text": "计划去安徽"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "山东",
+            "entity": "province"
+          }
+        ],
+        "text": "准备去山东"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "广西",
+            "entity": "province"
+          }
+        ],
+        "text": "就要去广西啦"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "新疆",
+            "entity": "province"
+          }
+        ],
+        "text": "我就要去新疆啦"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "天津",
+            "entity": "province"
+          }
+        ],
+        "text": "天津"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "去北京旅游"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "北京旅游"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "广东",
+            "entity": "province"
+          }
+        ],
+        "text": "广东"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "北京"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "去北京旅行"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "北京"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "福建",
+            "entity": "province"
+          }
+        ],
+        "text": "我想去福建"
+      },
+      {
+        "intent": "insult",
+        "text": "你真笨"
+      },
+      {
+        "intent": "insult",
+        "text": "你好傻"
+      },
+      {
+        "intent": "insult",
+        "text": "你太傻了"
+      },
+      {
+        "intent": "insult",
+        "text": "你一点都不智能"
+      },
+      {
+        "intent": "insult",
+        "text": "你太弱智了"
+      },
+      {
+        "intent": "insult",
+        "text": "你真没用"
+      },
+      {
+        "intent": "insult",
+        "text": "你怎么都听不懂我说话"
+      },
+      {
+        "intent": "insult",
+        "text": "你有什么用"
+      },
+      {
+        "intent": "insult",
+        "text": "我不喜欢你"
+      },
+      {
+        "intent": "insult",
+        "text": "你是在浪费我时间"
+      },
+      {
+        "intent": "insult",
+        "text": "我讨厌你"
+      },
+      {
+        "intent": "insult",
+        "text": "真蠢"
+      },
+      {
+        "intent": "insult",
+        "text": "你一点用处都没有"
+      },
+      {
+        "intent": "insult",
+        "text": "你真是无脑"
+      },
+      {
+        "intent": "insult",
+        "text": "蠢到家了"
+      },
+      {
+        "intent": "insult",
+        "text": "人如其名"
+      },
+      {
+        "intent": "insult",
+        "text": "笨死了"
+      },
+      {
+        "intent": "insult",
+        "text": "你真笨"
+      },
+      {
+        "intent": "insult",
+        "text": "你真笨"
+      },
+      {
+        "intent": "insult",
+        "text": "你真笨"
+      },
+      {
+        "intent": "insult",
+        "text": "我生气了"
+      },
+      {
+        "intent": "insult",
+        "text": "气死我了"
+      },
+      {
+        "intent": "insult",
+        "text": "你滚吧"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "province"
+          }
+        ],
+        "text": "北京有什么好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "上海",
+            "entity": "province"
+          }
+        ],
+        "text": "上海好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "山东",
+            "entity": "province"
+          }
+        ],
+        "text": "山东美食"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "福建",
+            "entity": "province"
+          }
+        ],
+        "text": "福建当地小吃"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "当地小吃"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "山东",
+            "entity": "province"
+          }
+        ],
+        "text": "山东美食"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "广东",
+            "entity": "province"
+          }
+        ],
+        "text": "推荐广东美食"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "山东",
+            "entity": "province"
+          }
+        ],
+        "text": "山东食物"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "特色食物"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "小吃推荐"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "地道小吃"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "这里有什么好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "江西",
+            "entity": "province"
+          }
+        ],
+        "text": "我要去江西吃好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "有啥好吃的这里"
+      },
+      {
+        "intent": "introduce_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "河南",
+            "entity": "province"
+          }
+        ],
+        "text": "河南有啥好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "当地美食"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "必打卡食物"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "网红美食"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "给我推荐当地美食"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "这里有什么吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "美食"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "美食"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "美食"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "好吃的"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "那有什么好吃的呢"
+      },
+      {
+        "intent": "introduce_food",
+        "text": "那有什么好吃的"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "故宫博物院",
+            "entity": "spot"
+          }
+        ],
+        "text": "故宫博物院"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "三坊七巷",
+            "entity": "spot"
+          }
+        ],
+        "text": "三坊七巷"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "天坛公园",
+            "entity": "spot"
+          }
+        ],
+        "text": "介绍下天坛公园"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "颐和园",
+            "entity": "spot"
+          }
+        ],
+        "text": "颐和园介绍"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "慕田峪长城",
+            "entity": "spot"
+          }
+        ],
+        "text": "慕田峪长城景点介绍"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "明十三陵",
+            "entity": "spot"
+          }
+        ],
+        "text": "给我讲下明十三陵"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "恭王府",
+            "entity": "spot"
+          }
+        ],
+        "text": "恭王府简介"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "北京奥林匹克公园",
+            "entity": "spot"
+          }
+        ],
+        "text": "北京奥林匹克公园讲解"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "武夷山",
+            "entity": "spot"
+          }
+        ],
+        "text": "给我介绍武夷山"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "太姥山",
+            "entity": "spot"
+          }
+        ],
+        "text": "我想了解太姥山"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "厦门市鼓浪屿风景名胜区",
+            "entity": "spot"
+          }
+        ],
+        "text": "讲解下厦门市鼓浪屿风景名胜区"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "深圳华侨城",
+            "entity": "spot"
+          }
+        ],
+        "text": "来讲下深圳华侨城"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "白云山",
+            "entity": "spot"
+          }
+        ],
+        "text": "看一下白云山"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "天津古文化街",
+            "entity": "spot"
+          }
+        ],
+        "text": "天津古文化街"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "故宫博物院",
+            "entity": "spot"
+          }
+        ],
+        "text": "介绍一下故宫博物院"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "天坛公园",
+            "entity": "spot"
+          }
+        ],
+        "text": "天坛公园"
+      },
+      {
+        "intent": "introduce_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "西递宏村",
+            "entity": "spot"
+          }
+        ],
+        "text": "西递宏村"
+      },
+      {
+        "intent": "introduce_spot",
+        "text": "介绍一下三坊七巷"
+      },
+      {
+        "intent": "oppo",
+        "text": "你想对oppo说什么"
+      },
+      {
+        "intent": "oppo",
+        "text": "你有什么话要对oppo说"
+      },
+      {
+        "intent": "oppo",
+        "text": "oppo"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "好玩的"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "江苏",
+            "entity": "province"
+          }
+        ],
+        "text": "江苏有什么推荐的"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "江西",
+            "entity": "province"
+          }
+        ],
+        "text": "江西有什么好玩的"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "河北",
+            "entity": "province"
+          }
+        ],
+        "text": "推荐河北的景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "河南",
+            "entity": "province"
+          }
+        ],
+        "text": "介绍一下河南的旅游景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "浙江",
+            "entity": "province"
+          }
+        ],
+        "text": "给我说说浙江有什么好玩的"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "福建",
+            "entity": "province"
+          }
+        ],
+        "text": "福建有什么好玩的"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "甘肃",
+            "entity": "province"
+          }
+        ],
+        "text": "甘肃有什么好玩的地方"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "贵州",
+            "entity": "province"
+          }
+        ],
+        "text": "贵州的著名景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "陕西",
+            "entity": "province"
+          }
+        ],
+        "text": "陕西的游客打卡地点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "黑龙江",
+            "entity": "province"
+          }
+        ],
+        "text": "黑龙江旅游"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "重庆",
+            "entity": "province"
+          }
+        ],
+        "text": "重庆5A景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "辽宁",
+            "entity": "province"
+          }
+        ],
+        "text": "辽宁必打卡的景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "青海",
+            "entity": "province"
+          }
+        ],
+        "text": "青海哪里好玩"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "西藏",
+            "entity": "province"
+          }
+        ],
+        "text": "西藏景点推荐"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "湖北",
+            "entity": "province"
+          }
+        ],
+        "text": "湖北推荐景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "介绍一下旅游景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "天津古文化街",
+            "entity": "spot"
+          }
+        ],
+        "text": "天津古文化街"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "好玩的"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "那好玩的呢"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "景点"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "有哪些好玩的"
+      },
+      {
+        "intent": "recommend_spot",
+        "text": "景点"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢你笨笨"
+      },
+      {
+        "intent": "thankyou",
+        "text": "哇感谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "超级感谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "超级爱你"
+      },
+      {
+        "intent": "thankyou",
+        "text": "太棒了"
+      },
+      {
+        "intent": "thankyou",
+        "text": "太强了"
+      },
+      {
+        "intent": "thankyou",
+        "text": "给力"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢你的帮忙"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢你的推荐"
+      },
+      {
+        "intent": "thankyou",
+        "text": "感谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "你真棒"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢啦"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢啦"
+      },
+      {
+        "intent": "thankyou",
+        "text": "你真棒"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢啦"
+      },
+      {
+        "intent": "thankyou",
+        "text": "谢谢"
+      },
+      {
+        "intent": "thankyou",
+        "text": "你真棒"
+      },
+      {
+        "intent": "thankyou",
+        "text": "你真棒"
+      },
+      {
+        "intent": "unknown",
+        "text": "给我查询话费"
+      },
+      {
+        "intent": "unknown",
+        "text": "如何[车"
+      },
+      {
+        "intent": "unknown",
+        "text": "那里居民怎样"
+      },
+      {
+        "intent": "unknown",
+        "text": "消费水平如何"
+      },
+      {
+        "intent": "unknown",
+        "text": "有图片么"
+      },
+      {
+        "intent": "unknown",
+        "text": "有没有帅哥"
+      },
+      {
+        "intent": "unknown",
+        "text": "我要听歌"
+      },
+      {
+        "intent": "unknown",
+        "text": "给我订外卖"
+      },
+      {
+        "intent": "unknown",
+        "text": "打开携程看看"
+      },
+      {
+        "intent": "unknown",
+        "text": "天气如何"
+      },
+      {
+        "intent": "unknown",
+        "text": "查一下天气"
+      },
+      {
+        "intent": "unknown",
+        "text": "你会查询天气么"
+      },
+      {
+        "intent": "unknown",
+        "text": "你会打车么"
+      },
+      {
+        "intent": "unknown",
+        "text": "你可以帮我打开携程么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "笨笨你有哪些功能"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "那你会啥"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "那你有哪些功能"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你说说你会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你就说你会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "来列举下你功能"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你到底会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你还会什么"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你会什么啊"
+      },
+      {
+        "intent": "whatcanyoudo",
+        "text": "你会什么到底"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "province",
+        "elements": "./data/province.txt"
+      },
+      {
+        "name": "spot",
+        "elements": "./data/spots.txt"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

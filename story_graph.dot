@@ -1,0 +1,37 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_greet];
+21 [class="", fontsize=12, label=utter_ask];
+29 [class=active, fontsize=12, label=action_chat];
+32 [class="", fontsize=12, label=utter_oppo];
+"-33" [class=ellipsis, label="..."];
+"-36" [class=ellipsis, label="..."];
+"-41" [class=ellipsis, label="..."];
+41 [class="", fontsize=12, label=utter_goodbye];
+"-42" [class=ellipsis, label="..."];
+43 [class="dashed active", fontsize=12, label=action_my_fallback];
+44 [class=intent, fillcolor=lightblue, label="/greet", shape=rect, style=filled];
+45 [class=intent, fillcolor=lightblue, label="/inform", shape=rect, style=filled];
+46 [class="intent active", fillcolor=lightblue, label="你认识林浩智同学么", shape=rect, style=filled];
+47 [class=intent, fillcolor=lightblue, label="/oppo:", shape=rect, style=filled];
+48 [class=intent, fillcolor=lightblue, label="/goodbye", shape=rect, style=filled];
+49 [class="intent active", fillcolor=lightblue, label="你认识迪丽热巴么", shape=rect, style=filled];
+0 -> 44  [class="", key=0];
+0 -> 45  [class="", key=0];
+0 -> 46  [class=active, key=0];
+0 -> 47  [class="", key=0];
+0 -> 48  [class="", key=0];
+1 -> "-41"  [class="", key=NONE, label=""];
+21 -> "-36"  [class="", key=NONE, label=""];
+29 -> "-1"  [class="", key=NONE, label=""];
+29 -> 49  [class=active, key=0];
+32 -> "-33"  [class="", key=NONE, label=""];
+41 -> "-42"  [class="", key=NONE, label=""];
+44 -> 1  [class="", key=0];
+45 -> 21  [class="", key=0];
+46 -> 29  [class=active, key=0];
+47 -> 32  [class="", key=0];
+48 -> 41  [class="", key=0];
+49 -> 43  [class=active, key=0];
+}

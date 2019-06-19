@@ -1,0 +1,80 @@
+%YAML 1.1
+---
+actions:
+- action_chat
+- action_icando
+- action_introduce_food
+- action_introduce_spots
+- action_my_fallback
+- action_noworries
+- action_provide_spots
+- action_sad
+- action_unknown
+- utter_ask
+- utter_goodbye
+- utter_greet
+- utter_oppo
+entities:
+- name
+- province
+- spot
+intents:
+- recommend_spot
+- introduce_food
+- inform
+- oppo
+- introduce_spot
+- unknown
+- goodbye
+- whatcanyoudo
+- greet
+- thankyou
+- insult
+- chat
+slots:
+  name:
+    type: text
+  province:
+    type: text
+  spot:
+    type: text
+templates:
+  utter_ask:
+  - text: 好棒！主人是想知道{province}有哪些著名景点还是想查询好吃的呢
+  - text: 我可以告诉主人{province}有哪些好吃的或者哪些好玩的，主人想先听哪一个
+  - text: 主人想了解景点还是美食？
+  utter_chat:
+  - text: 我当然认识啊，{name}这么优秀
+  - text: '{name}我可熟了，长的可帅了'
+  - text: '{name}啊，我认识，要介绍你认识么'
+  utter_goodbye:
+  - text: 再见
+  - text: 主人再见，祝你今天有个好心情
+  - text: 主人再见，要开心噢
+  utter_greet:
+  - text: 主人好
+  - text: 小主好，今天想去哪个省旅游呢
+  - text: 主人好，今天想看看哪个省份的旅游信息呢
+  utter_icando:
+  - text: 主人，我会查询给定省份的5A级旅游景点以及介绍每个景点，推荐各个省份的美食呢
+  - text: "主人，我的功能如下：\n 1. 查询给定省份的5A级旅游景点 \n 2. 介绍旅游景点 \n 3. 推荐各个省份的美食"
+  utter_noworries:
+  - text: 不客气
+  - text: 为主人服务是我的荣幸
+  - text: 很开心可以帮到主人
+  - text: 主人开心我就开心
+  utter_oppo:
+  - text: 感谢OPPO提供的这次机会，感谢杨老师和浩智哥的指导！谢谢大家！
+  utter_sad:
+  - text: 主人对不起，是我太笨了
+  - text: 主人对不起，我惹你不开心了
+  - text: 主人我会努力变聪明的
+  - text: 主人我会慢慢进化的，要对我有耐心噢
+  - text: 只要主人愿意调教我，我一定会变聪明的
+  - text: 主人我面壁思过去了
+  utter_unknown:
+  - text: 抱歉主人，这些超出我的能力范围了
+  - text: 主人这些我现在还不会，你可以问我中国省份、旅游景点以及当地美食
+  - text: 笨笨现在能力有限，暂时无法回答这些问题
+  - text: 这些问题对笨笨来说太难了
+  - text: 等笨笨升级了主人再来问这些问题吧

@@ -1,0 +1,69 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "province",
+        "spot",
+        "name"
+      ]
+    },
+    "action_noworries": {
+      "slots": []
+    },
+    "action_unknown": {
+      "slots": []
+    },
+    "action_introduce_spots": {
+      "slots": [
+        "spot"
+      ]
+    },
+    "action_introduce_food": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_provide_spots": {
+      "slots": []
+    },
+    "action_icando": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_sad": {
+      "slots": []
+    },
+    "utter_oppo": {
+      "slots": []
+    },
+    "action_chat": {
+      "slots": []
+    },
+    "utter_ask": {
+      "slots": []
+    }
+  },
+  "python": "3.7.3",
+  "max_histories": [
+    6,
+    6,
+    2,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa.core.policies.memoization.MemoizationPolicy",
+    "rasa.core.policies.keras_policy.KerasPolicy",
+    "rasa.core.policies.form_policy.FormPolicy",
+    "rasa.core.policies.mapping_policy.MappingPolicy",
+    "rasa.core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190618-113949",
+  "rasa": "1.0.3",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}

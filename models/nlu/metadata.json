@@ -1,0 +1,55 @@
+{
+    "language": "zh",
+    "pipeline": [
+        {
+            "model": "data/total_word_feature_extractor.dat",
+            "name": "MitieNLP",
+            "mitie_feature_extractor_fingerprint": 768988342,
+            "class": "rasa.nlu.utils.mitie_utils.MitieNLP"
+        },
+        {
+            "dictionary_path": null,
+            "name": "JiebaTokenizer",
+            "class": "rasa.nlu.tokenizers.jieba_tokenizer.JiebaTokenizer"
+        },
+        {
+            "name": "MitieEntityExtractor",
+            "file": "component_2_MitieEntityExtractor.dat",
+            "class": "rasa.nlu.extractors.mitie_entity_extractor.MitieEntityExtractor"
+        },
+        {
+            "name": "EntitySynonymMapper",
+            "file": null,
+            "class": "rasa.nlu.extractors.entity_synonyms.EntitySynonymMapper"
+        },
+        {
+            "name": "MitieFeaturizer",
+            "class": "rasa.nlu.featurizers.mitie_featurizer.MitieFeaturizer"
+        },
+        {
+            "C": [
+                1,
+                2,
+                5,
+                10,
+                20,
+                100
+            ],
+            "gamma": [
+                0.1
+            ],
+            "kernels": [
+                "linear"
+            ],
+            "max_cross_validation_folds": 5,
+            "scoring_function": "f1_weighted",
+            "name": "SklearnIntentClassifier",
+            "classifier": "component_5_SklearnIntentClassifier_classifier.pkl",
+            "encoder": "component_5_SklearnIntentClassifier_encoder.pkl",
+            "class": "rasa.nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
+        }
+    ],
+    "training_data": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\tmpzqvsbdqq\\nlu\\training_data.json",
+    "trained_at": "20190618-115022",
+    "rasa_version": "1.0.3"
+}

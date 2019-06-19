@@ -1,0 +1,22 @@
+/* 页面整体 */
+body {
+    margin: auto;
+    max-width: 580px;
+    font-size: 20px;
+    font-family: '微软雅黑';
+}
+
+/* 页脚 */
+footer {
+    color: #888;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 动图 */
+.benben {
+    margin: 0 auto;
+    height: 100px;
+}
+
